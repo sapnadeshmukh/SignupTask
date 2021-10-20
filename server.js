@@ -4,7 +4,7 @@ const app=express()
 app.use(express.json())
 
 
-app.use('',require('./route/index'))
+app.use('',require('./route/allfileRoute'))
 const PORT=process.env.PORT;
 
 
